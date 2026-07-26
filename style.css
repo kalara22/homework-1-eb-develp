@@ -1,0 +1,9 @@
+body { background-color: #91caff;}
+p { color: #9074ff;}
+.center {h1 { text-align: center;}}
+h1 { text-align: center;}
+p { font-family: "comic sans ms", sans-serif;}
+#id {h2 { color: #8369eb; }}
+ul { color: #8369eb; }
+.custom-border { border: 6px solid #8369eb; }
+.box {padding: 20px; margin: 20px; border: 5px solid #9e86ff; background-color: #a0d1ff; border-radius: 10px;}
