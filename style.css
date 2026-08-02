@@ -7,3 +7,26 @@ p { font-family: "comic sans ms", sans-serif;}
 ul { color: #8369eb; }
 .custom-border { border: 6px solid #8369eb; }
 .box {padding: 20px; margin: 20px; border: 5px solid #9e86ff; background-color: #a0d1ff; border-radius: 10px;}
+.first-list ul { display: flex;}
+.first-list ul { list-style: none;}
+.first-list ul li { margin-right: 20px;}
+.first-list ul li {border: 2px solid #8369eb; padding: 10px; border-radius: 5px;}
+.first-list ul li { background-color: 91caff; padding: 20px; display:flex; justify-content: space-between; align-items: center;}
+
+
+@media (max-width: 320px) 
+{.first-list ul { display: grid; grid-template-columns: 1fr;} 
+.first-list ul li { flex-direction: column; } 
+.first-list ul li { margin-right: 10px; margin-bottom: 20px; } }
+
+@media (min-width: 768px) {
+  .first-list ul { display: grid; grid-template-columns: 1fr 1fr; }
+  .first-list ul li { margin-right: 10px; margin-bottom: 20px; }
+  .first-list ul li { flex-direction: column; }
+}
+
+@media (min-width: 1024px) {
+  .first-list ul { display: grid; grid-template-columns: 1fr 1fr; }
+  .first-list ul li { margin-right: 10px; margin-bottom: 20px; }
+  .first-list ul li { flex-direction: column; }
+}
