@@ -1,19 +1,19 @@
 body { background-color: #91caff;}
-p { color: #5C3AE4;}
+p { color: #451FE0;}
 .center {h1 { text-align: center;}}
 h1 { text-align: center;}
 p { font-family: "comic sans ms", sans-serif;}
-#id {h2 { color: #5C3AE4; }}
-ul { color: #5C3AE4; }
-.custom-border { border: 6px solid #5C3AE4; }
-.box {padding: 20px; margin: 20px; border: 5px solid #5C3AE4; background-color: #a0d1ff; border-radius: 10px;}
+#id {h2 { color: #451FE0; }}
+ul { color: #451FE0; }
+.custom-border { border: 6px solid #451FE0; }
+.box {padding: 20px; margin: 20px; border: 5px solid #451FE0; background-color: #a0d1ff; border-radius: 10px;}
 .first-list ul { display: flex;}
 .first-list ul { list-style: none;}
 .first-list ul li { margin-right: 20px;}
-.first-list ul li {border: 2px solid #5C3AE4; padding: 10px; border-radius: 5px;}
+.first-list ul li {border: 2px solid #451FE0; padding: 10px; border-radius: 5px;}
 .first-list ul li { background-color: #91caff; padding: 20px; display:flex; justify-content: space-between; align-items: center;}
 
-article h2 { color:#5C3AE4}
+article h2 { color:#451FE0}
 
 @media (max-width: 320px) 
 {.first-list ul { display: grid; grid-template-columns: 1fr;} 
