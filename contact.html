@@ -1,10 +1,47 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Contact Us</title>
+<html lang="en">
+     <head>
+        <title>Contact Me</title>
+         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>hi there!</h1>
-        <p>welcome to our contact page!</p>
+        <header class="contact-banner">
+            <div class="contact-logo">Contact Me</div>
+        <nav class="contact-list">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">projects</a></li>
+            </ul>
+        </nav>
+        </header>
+        
+        <nav class="info-list">
+            <fieldset>
+                <legend>Contact Information</legend>
+                <h1>Contact Me</h1>
+                <h2>Phone: 510-372-5218</h2>
+                <h3>Email: ksandoval@my.campus.edu</h3>
+            </fieldset>
+        </nav>
+
+        <nav class="contact-form">
+            <label for="name-id-input" for="name">Name:</label>
+            <input id="name-id-input" type="text" name="name" placeholder="Enter your name"></input>
+            <label for="email-id-input" for="email">Email:</label>
+            <input id="email-id-input" type="email" name="email" placeholder="Enter your email"></input>
+            <label for="phone-id-input" for="phone">Phone:</label>
+            <input id="phone-id-input" type="tel" name="phone" placeholder="Enter your phone number"></input>
+            <button id="phone-number-button" type="submit">add phone number</button>
+            <ul id="phone-number-list">
+                <li>phone number list</li>
+            </ul>
+            <label for="message-id-input" for="message">Message:</label>
+            <textarea id="message-id-input" name="message" placeholder="Enter your message here"></textarea>
+        <button id="submit-button" type="submit">Submit</button>
+        <p id="message">Message not yet submitted.</p>
+        </nav>
+         <script src="script.js"></script>
     </body>
 </html>

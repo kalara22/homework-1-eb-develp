@@ -1,4 +1,4 @@
-body { background-color: #91caff;}
+body { background-color: #c8e6f9;}
 p { color: #451FE0;}
 .center {h1 { text-align: center;}}
 h1 { text-align: center;}
@@ -31,3 +31,27 @@ article h2 { color:#451FE0}
   .first-list ul li { margin-right: 10px; margin-bottom: 20px; }
   .first-list ul li { flex-direction: column; }
 }
+
+.contact-list ul { display: flex; flex-direction: row; grid-template-rows: 1fr 1fr; list-style: none; padding: 1; margin: 1; gap: 20px; align-items: center; justify-content: center; }
+.contact-list li { margin-bottom: 10px; }
+.contact-list li a { color: #015448; text-decoration: none; }
+.contact-list li a:hover { text-decoration: none; }
+
+
+
+.info-list { display: flex; flex-direction: column; }
+.info-list h2 { color: #000000; }
+.info-list fieldset { margin-bottom: 50px; }
+
+.contact-form { display: flex; flex-direction: column; align-items: center; }
+.contact-form label { margin-bottom: 5px; }
+.contact-form input, .contact-form textarea { margin-bottom: 10px; padding: 20px; width: 100%; max-width: 400px; }
+.contact-form nav { padding-top: 100px 20px; background-color: #451FE0; color: #ffffff; cursor: pointer; }
+.contact-banner {background-color: #a0faf2; color: #014e45; font-family: "comic sans ms", sans-serif; text-align: center; padding: 20px; border: 2px solid #02654e; border-radius: 10px; margin-top: 20px;}
+
+.text-input { color: #014e45; background-color: #cbfff0; border: 2px solid #02654e; border-radius: 5px;  }
+.text-input2 { color: #014e45; background-color: #cbfff0; border: 2px solid #02654e; border-radius: 5px;  }
+.text-input3 { color: #014e45; background-color: #cbfff0; border: 2px solid #02654e; border-radius: 5px;  }
+p#message {color: #014e45;}
+
+#phone-numer-list ul {color: #014e45;}
