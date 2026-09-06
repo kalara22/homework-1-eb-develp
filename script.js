@@ -133,8 +133,7 @@ if (emailInput.value.trim() === "") {
         return false;
 }
 
-
-    if(!emailInput.value.includes("@")) {
+if(!emailInput.value.includes("@")) {
         emailError.textContent = "email requires an '@' sign";
         return false;
     }
