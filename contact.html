@@ -26,22 +26,34 @@
             </fieldset>
         </nav>
 
+        <fieldset>
+            <legend>Contact Form</legend>
+        <form novalidate>
         <nav class="contact-form">
-            <label for="name-id-input" for="name">Name:</label>
-            <input id="name-id-input" type="text" name="name" placeholder="Enter your name"></input>
-            <label for="email-id-input" for="email">Email:</label>
-            <input id="email-id-input" type="email" name="email" placeholder="Enter your email"></input>
-            <label for="phone-id-input" for="phone">Phone:</label>
-            <input id="phone-id-input" type="tel" name="phone" placeholder="Enter your phone number"></input>
+            <label for="name-id-input">Name:</label>
+            <input id="name-id-input" type="text" name="name" placeholder="Enter your name" required></input>
+            <span id="name-error" class="error-message"></span>
+
+            <label for="email-id-input">Email:</label>
+            <input id="email-id-input" type="email" name="email" placeholder="Enter your email" required></input>
+            <span id="email-error" class="error-message"></span>
+
+            <label for="phone-id-input">Phone:</label>
+            <input id="phone-id-input" type="tel" name="phone" placeholder="Enter your phone number" required></input>
+            <span id="phone-error" class="error-message"></span>
+
             <button id="phone-number-button" type="submit">add phone number</button>
             <ul id="phone-number-list">
                 <li>phone number list</li>
             </ul>
-            <label for="message-id-input" for="message">Message:</label>
-            <textarea id="message-id-input" name="message" placeholder="Enter your message here"></textarea>
+            <label for="message-id-input">Message:</label>
+            <textarea id="message-id-input" name="message" placeholder="Enter your message here" required></textarea>
+            <span id="message-error" class="error-message"></span>
         <button id="submit-button" type="submit">Submit</button>
-        <p id="message">Message not yet submitted.</p>
+        <p id="message-submitted"></p>
         </nav>
+        </form>
+        </fieldset>
          <script src="script.js"></script>
     </body>
 </html>

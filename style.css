@@ -54,4 +54,9 @@ article h2 { color:#451FE0}
 .text-input3 { color: #014e45; background-color: #cbfff0; border: 2px solid #02654e; border-radius: 5px;  }
 p#message {color: #014e45;}
 
-#phone-numer-list ul {color: #014e45;}
+#phone-number-list ul {color: #014e45;}
+
+#name-error { color: red; font-size: 14px; margin-top: 0px; margin-bottom: 10px; }
+#email-error { color: red; font-size: 14px; margin-top: 0px; margin-bottom: 10px; }
+#phone-error { color: red; font-size: 14px; margin-top: 0px; margin-bottom: 10px; }
+#message-error { color: red; font-size: 14px; margin-top: 0px; margin-bottom: 10px; }
